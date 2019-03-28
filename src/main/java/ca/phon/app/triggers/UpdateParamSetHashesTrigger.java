@@ -15,6 +15,7 @@
  */
 package ca.phon.app.triggers;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Iterator;
 
@@ -71,11 +72,14 @@ public class UpdateParamSetHashesTrigger implements VersionTrigger, IPluginExten
 			QueryScript queryScript = scriptItr.next();
 			if(queryScript != null) {
 				try {
-					QueryHistoryManager queryHistory = QueryHistoryManager.newInstance(queryScript);
-					if(queryHistory.size() > 0) {
-						LogUtil.info("Fixing hashes for query " + queryScript.getExtension(QueryName.class).getName());
-						queryHistory.fixHashes(queryScript);
-						QueryHistoryManager.save(queryHistory, queryScript);
+					File historyFile = QueryHistoryManager.queryHistoryFile(queryScript);
+					if(historyFile.exists()) {
+						QueryHistoryManager queryHistory = QueryHistoryManager.newInstance(queryScript);
+						if(queryHistory.size() > 0) {
+							LogUtil.info("Fixing hashes for query " + queryScript.getExtension(QueryName.class).getName());
+							queryHistory.fixHashes(queryScript);
+							QueryHistoryManager.save(queryHistory, queryScript);
+						}
 					}
 				} catch (IOException | PhonScriptException e) {
 					LogUtil.warning(e);
