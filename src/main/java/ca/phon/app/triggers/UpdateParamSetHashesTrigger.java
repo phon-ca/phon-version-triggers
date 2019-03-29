@@ -40,6 +40,8 @@ import ca.phon.util.resources.ResourceLoader;
  * query forms.
  */
 public class UpdateParamSetHashesTrigger implements VersionTrigger, IPluginExtensionPoint<VersionTrigger> {
+	
+	private final static String PREVIOUS_VERSION_CHECK = "<3.0.4";
 
 	@Override
 	public Class<?> getExtensionType() {
@@ -57,7 +59,7 @@ public class UpdateParamSetHashesTrigger implements VersionTrigger, IPluginExten
 		
 		// execute this plug-in if the previously executed version of
 		// phon was <3.0.4
-		if(pv.check("<3.0.4")) {
+		if(pv.check(PREVIOUS_VERSION_CHECK)) {
 			updateQueryHistoryHashes();
 		}
 	}
