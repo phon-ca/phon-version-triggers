@@ -41,7 +41,7 @@ import ca.phon.util.resources.ResourceLoader;
  */
 public class UpdateParamSetHashesTrigger implements VersionTrigger, IPluginExtensionPoint<VersionTrigger> {
 	
-	private final static String PREVIOUS_VERSION_CHECK = "<3.0.4";
+	private final static String PREVIOUS_VERSION_CHECK = "<3.1.0";
 
 	@Override
 	public Class<?> getExtensionType() {
@@ -57,8 +57,6 @@ public class UpdateParamSetHashesTrigger implements VersionTrigger, IPluginExten
 	public void versionChanged(String prevVersion, String currentVersion) {
 		VersionInfo pv = new VersionInfo(prevVersion);
 		
-		// execute this plug-in if the previously executed version of
-		// phon was <3.0.4
 		if(pv.check(PREVIOUS_VERSION_CHECK)) {
 			updateQueryHistoryHashes();
 		}
