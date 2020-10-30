@@ -41,7 +41,7 @@ import ca.phon.util.resources.ResourceLoader;
  */
 public class UpdateParamSetHashesTrigger implements VersionTrigger, IPluginExtensionPoint<VersionTrigger> {
 	
-	private final static String PREVIOUS_VERSION_CHECK = "<3.1.0";
+	private final static String PREVIOUS_VERSION_CHECK = "<3.2.0";
 
 	@Override
 	public Class<?> getExtensionType() {
