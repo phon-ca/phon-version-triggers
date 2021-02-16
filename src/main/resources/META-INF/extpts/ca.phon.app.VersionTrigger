@@ -1,2 +1,4 @@
 ca.phon.app.triggers.VersionChangeInformationTrigger
 ca.phon.app.triggers.UpdateParamSetHashesTrigger
+
+ca.phon.app.triggers.ResetFontTrigger
