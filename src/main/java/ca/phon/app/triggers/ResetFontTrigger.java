@@ -19,7 +19,7 @@ public class ResetFontTrigger implements VersionTrigger, IPluginExtensionPoint<V
 		if(!PrefHelper.getBoolean(RESET_FONT_PROP, false)) {
 			LogUtil.info("Resetting all font preferences");
 			FontPreferences.resetAll();
-			PrefHelper.getUserPreferences().put(RESET_FONT_PROP, true);
+			PrefHelper.getUserPreferences().putBoolean(RESET_FONT_PROP, true);
 		}
 	}
 
