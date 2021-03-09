@@ -3,6 +3,7 @@ package ca.phon.app.triggers;
 import ca.phon.app.prefs.EditorPrefsPanel;
 import ca.phon.app.prefs.PreferencesEP;
 import ca.phon.app.welcome.WelcomeWindow;
+import ca.phon.app.welcome.WorkspaceTextStyler;
 import ca.phon.extensions.Extension;
 import ca.phon.extensions.ExtensionProvider;
 import ca.phon.extensions.IExtendable;
@@ -44,8 +45,12 @@ public class ResetFontsExtensionProvider implements ExtensionProvider {
 			resetButton.getTopLabel().setFont(FontPreferences.getTitleFont());
 			resetButton.getTopLabel().setBorder(BorderFactory.createEmptyBorder(5, 0, 5, 0));
 			resetButton.setBackground(new Color(255, 255, 200));
-			resetButton.getTopLabel().setText("Font Preferences Reset");
-			resetButton.getBottomLabel().setText("<p>Font preferences have been reset, click here to review changes.</p>");
+			resetButton.getTopLabel().setText(WorkspaceTextStyler.toHeaderText("Font Preferences Reset"));
+
+			resetButton.getBottomLabel().setText(
+					WorkspaceTextStyler.toDescText("Font preferences have been reset, click here to review changes."));
+
+			resetButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 
 			final PluginAction pluginAction = new PluginAction(PreferencesEP.EP_NAME);
 			pluginAction.putArg("prefpanel", "Fonts");
