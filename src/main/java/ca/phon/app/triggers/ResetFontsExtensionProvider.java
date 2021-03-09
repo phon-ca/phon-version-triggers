@@ -39,7 +39,7 @@ public class ResetFontsExtensionProvider implements ExtensionProvider {
 		if(resetButton == null) {
 			resetButton = new MultiActionButton();
 
-			ImageIcon icn = IconManager.getInstance().getIcon("apps/preferences-desktop-font", IconSize.SMALL));
+			ImageIcon icn = IconManager.getInstance().getIcon("apps/preferences-desktop-font", IconSize.SMALL);
 			resetButton.getTopLabel().setIcon(icn);
 			resetButton.getTopLabel().setFont(FontPreferences.getTitleFont());
 			resetButton.getTopLabel().setBorder(BorderFactory.createEmptyBorder(5, 0, 5, 0));
