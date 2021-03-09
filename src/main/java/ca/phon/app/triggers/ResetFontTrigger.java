@@ -10,10 +10,9 @@ import ca.phon.util.PrefHelper;
 
 public class ResetFontTrigger implements VersionTrigger, IPluginExtensionPoint<VersionTrigger> {
 
-	private final static String PREVIOUS_VERSION_CHECK = "<3.2.1";
+	private final static String PREVIOUS_VERSION_CHECK = "<3.3.0";
 
-	public final static String RESET_FONT_PROP = ResetFontTrigger.class.getName() + ".tempResetFlag";
-
+	public final static String RESET_FONT_PROP = ResetFontTrigger.class.getName() + ".resetFlag";
 
 	@Override
 	public void versionChanged(String prevVersion, String currentVersion) {
@@ -23,6 +22,7 @@ public class ResetFontTrigger implements VersionTrigger, IPluginExtensionPoint<V
 			LogUtil.info("Resetting all font preferences");
 			FontPreferences.resetAll();
 			PrefHelper.getUserPreferences().putBoolean(RESET_FONT_PROP, true);
+			PrefHelper.getUserPreferences().putBoolean(ResetFontsExtensionProvider.SHOW_RESET_PROP, true);
 		}
 	}
 
@@ -35,4 +35,5 @@ public class ResetFontTrigger implements VersionTrigger, IPluginExtensionPoint<V
 	public IPluginExtensionFactory<VersionTrigger> getFactory() {
 		return (args) -> this;
 	}
+
 }

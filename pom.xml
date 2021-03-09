@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ca.phon</groupId>
   <artifactId>phon-version-triggers</artifactId>
-  <version>5</version>
+  <version>6</version>
 
   <licenses>
     <license>
@@ -67,7 +67,7 @@
     <project.build.targetVersion>15</project.build.targetVersion>
 
     <!-- Dependency versions -->
-    <ca.phon.phon-app.version>3.2.1-SNAPSHOT</ca.phon.phon-app.version>
+    <ca.phon.phon-app.version>3.3.0-SNAPSHOT</ca.phon.phon-app.version>
     
     <!-- Plugin versions -->
     <org.apache.maven.plugins.maven-compiler-plugin.version>3.8.0</org.apache.maven.plugins.maven-compiler-plugin.version>
