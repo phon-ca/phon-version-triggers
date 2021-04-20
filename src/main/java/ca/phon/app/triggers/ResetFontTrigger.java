@@ -12,7 +12,7 @@ public class ResetFontTrigger implements VersionTrigger, IPluginExtensionPoint<V
 
 	private final static String PREVIOUS_VERSION_CHECK = "<3.3.0";
 
-	public final static String RESET_FONT_PROP = ResetFontTrigger.class.getName() + ".resetFlag";
+	public final static String RESET_FONT_PROP = ResetFontTrigger.class.getName() + ".resetDone";
 
 	@Override
 	public void versionChanged(String prevVersion, String currentVersion) {
