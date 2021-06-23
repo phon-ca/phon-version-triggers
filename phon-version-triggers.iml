@@ -10,21 +10,21 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-app:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-app:3.3.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-project:3.3.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-xml:3.3.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-session:3.3.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-orthography:3.3.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-components:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-project:3.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-xml:3.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-session:3.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-orthography:3.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-components:3.3.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.swinglabs.swingx:swingx-all:1.6.5-1" level="project" />
     <orderEntry type="library" name="Maven: ca.hedlund:tst:0.7" level="project" />
     <orderEntry type="library" name="Maven: com.jgoodies:jgoodies-forms:1.9.0" level="project" />
     <orderEntry type="library" name="Maven: ca.phon:jbreadcrumb:5" level="project" />
     <orderEntry type="library" name="Maven: com.fifesoft:autocomplete:2.6.1" level="project" />
     <orderEntry type="library" name="Maven: ca.phon:native-dialogs:17" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-util:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-util:3.3.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
     <orderEntry type="library" name="Maven: de.susebox:jtopas:0.8" level="project" />
     <orderEntry type="library" name="Maven: ca.hedlund:desktopicons:4" level="project" />
@@ -36,33 +36,33 @@
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.13.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.13.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-1.2-api:2.13.3" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-media:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-media:3.3.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: uk.co.caprica:vlcj:4.3.0" level="project" />
     <orderEntry type="library" name="Maven: uk.co.caprica:vlcj-natives:4.1.0" level="project" />
     <orderEntry type="library" name="Maven: net.java.dev.jna:jna:5.2.0" level="project" />
     <orderEntry type="library" name="Maven: net.java.dev.jna:jna-platform:5.2.0" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-ipamap:3.3.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-ipa:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-ipamap:3.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-ipa:3.3.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:antlr4:4.7.2" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.7.2" level="project" />
     <orderEntry type="library" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish:javax.json:1.0.4" level="project" />
     <orderEntry type="library" name="Maven: com.ibm.icu:icu4j:61.1" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon.opgraph:opgraph-common-nodes:2.1.0" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon.opgraph:opgraph-core:2.1.0" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon.opgraph:opgraph-app:2.1.0" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon.opgraph:opgraph-library:2.1.0" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon.opgraph:opgraph-xml-io:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon.opgraph:opgraph-common-nodes:2.1.2" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon.opgraph:opgraph-core:2.1.2" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon.opgraph:opgraph-app:2.1.2" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon.opgraph:opgraph-library:2.1.2" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon.opgraph:opgraph-xml-io:2.1.2" level="project" />
     <orderEntry type="library" name="Maven: net.sf.opencsv:opencsv:2.3" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-ipadictionary:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-ipadictionary:3.3.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:antlr:3.5.2" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:antlr-runtime:3.5.2" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:ST4:4.0.8" level="project" />
     <orderEntry type="library" name="Maven: org.apache.derby:derby:10.10.2.0" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-query:3.3.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: ca.phon:phon-script:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-query:3.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: ca.phon:phon-script:3.3.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.fifesoft:rsyntaxtextarea:2.6.1" level="project" />
-    <orderEntry type="library" name="Maven: commons-io:commons-io:2.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.7" level="project" />
     <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-collections4:4.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.velocity:velocity:1.7" level="project" />
