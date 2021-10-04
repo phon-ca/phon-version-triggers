@@ -36,3 +36,6 @@ hs_err_pid*
 .settings
 .idea/
 *.iml
+.idea/
+*.iml
+*.versionsBackup
