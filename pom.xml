@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ca.phon</groupId>
 	<artifactId>phon-version-triggers</artifactId>
-	<version>8</version>
+	<version>9</version>
 
 	<distributionManagement>
 		<repository>
@@ -17,11 +17,11 @@
 	<properties>
 		<!-- Project settings -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.build.sourceVersion>15</project.build.sourceVersion>
-		<project.build.targetVersion>15</project.build.targetVersion>
+		<project.build.sourceVersion>17</project.build.sourceVersion>
+		<project.build.targetVersion>17</project.build.targetVersion>
 
 		<!-- Dependency versions -->
-		<ca.phon.phon-app.version>3.3.7-SNAPSHOT</ca.phon.phon-app.version>
+		<ca.phon.phon-app.version>3.5.0-SNAPSHOT</ca.phon.phon-app.version>
 
 		<!-- Plugin versions -->
 		<org.apache.maven.plugins.maven-compiler-plugin.version>3.8.0</org.apache.maven.plugins.maven-compiler-plugin.version>
