@@ -10,7 +10,7 @@ import ca.phon.util.PrefHelper;
 
 public class ResetFontTrigger implements VersionTrigger, IPluginExtensionPoint<VersionTrigger> {
 
-	private final static String PREVIOUS_VERSION_CHECK = "<3.3.0";
+	private final static String PREVIOUS_VERSION_CHECK = "<4.0.0";
 
 	public final static String RESET_FONT_PROP = ResetFontTrigger.class.getName() + ".resetDone";
 
