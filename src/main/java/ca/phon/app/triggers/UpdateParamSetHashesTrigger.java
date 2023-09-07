@@ -19,7 +19,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Iterator;
 
-import ca.phon.app.VersionInfo;
 import ca.phon.app.VersionTrigger;
 import ca.phon.app.log.LogUtil;
 import ca.phon.plugin.IPluginExtensionFactory;
@@ -29,6 +28,7 @@ import ca.phon.query.script.QueryName;
 import ca.phon.query.script.QueryScript;
 import ca.phon.query.script.QueryScriptLibrary;
 import ca.phon.script.PhonScriptException;
+import ca.phon.util.VersionInfo;
 import ca.phon.util.resources.ResourceLoader;
 
 /**
