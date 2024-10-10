@@ -1,6 +1,6 @@
 package ca.phon.app.triggers;
 
-import ca.phon.util.VersionInfo;
+import ca.phon.app.VersionInfo;
 import ca.phon.app.VersionTrigger;
 import ca.phon.app.log.LogUtil;
 import ca.phon.plugin.IPluginExtensionFactory;
